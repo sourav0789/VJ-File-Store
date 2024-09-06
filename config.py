@@ -23,7 +23,7 @@ API_HASH = environ.get("API_HASH", "3d088893c7ff5b84c429eadf6df88ab4")
 BOT_TOKEN = environ.get("BOT_TOKEN", "")
 
 PICS = (environ.get('PICS', 'https://telegra.ph/file/5688a3e561c19ead1b33f.jpg')).split() # Bot Start Picture
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5408428203 7023006442').split()]
 BOT_USERNAME = environ.get("BOT_USERNAME", "MZAFileStoreBot") # without @
 PORT = environ.get("PORT", "8080")
 
